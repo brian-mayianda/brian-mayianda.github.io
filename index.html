@@ -7,28 +7,47 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Top Section -->
+    <!-- Menu Section: Includes Switch Mode and Menu -->
+    <div class="menu-section">
+      <div class="switch-mode">
+        <img src="images/light-or-dark-mode.jpg" alt="light/dark mode" />
+      </div>
+
+      <div class="menu">
+        <button class="menu-btn">Menu</button>
+        <div class="menu-content">
+          <a href="#get-in-touch">Get In Touch</a>
+          <a href="#about">About</a>
+          <a href="#stack">Stack</a>
+          <a href="#projects">Projects</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top Section: It wraps the header which contains Photo and Intro: I use it to add a background linear gradient to the header -->
+
     <div class="top" #="top">
+      <!-- Header -->
       <div class="header">
         <!-- Photo -->
         <div class="photo">
           <div><img src="images/graduation-selfie.jpg" alt="my-photo" /></div>
         </div>
-        <!-- intro -->
 
-        <div class="intro">
+        <!-- intro -->
+        <div class="about" id="about">
           <h1>Brian Masaki</h1>
-          <h2>Software Engineer <span>&#183;</span> Front-end developer</h2>
+          <h2>Software Engineer</h2>
+          <p>Front-end developer</p>
 
           <p>
-            Solving problems and crafting solutions to diverse real-world
-            challenges by leveraging modern technology is what I love to do. I
-            am a self-motivated, reliable, hard-working, and responsible person.
-            I can communicate effectively, maintain good interpersonal
-            relationships, and work collaboratively with my colleagues. I have a
-            flexible and positive approach to employment and I am willing to
-            train, develop, and improve my professional abilities to suit my
-            next working environment.
+            Solving problems and crafting solutions to diverse real-world <br />
+            challenges by leveraging modern technology is what I love to do.
+            <br />
+            I am a self-motivated, reliable, hard-working, and responsible
+            person. <br />
+            I can communicate effectively, maintain good interpersonal <br />
+            relationships, and work collaboratively with my colleagues.
           </p>
 
           <div class="work-status">
@@ -45,7 +64,7 @@
     <!-- Middle Section -->
 
     <!-- Tech Stack -->
-    <div class="stack">
+    <div class="stack" id="stack">
       <div class="tech-stack">Tech Stack:</div>
       <div class="javascript"><div>Javascript</div></div>
       <div class="react"><div>React</div></div>
@@ -57,65 +76,124 @@
     </div>
 
     <!-- Passion Section -->
-<div class="passion-section">
-  <div class="passion">
-    <img src="images/passion.jpg" alt="">
-    <h2>Passion</h2>
-    <p>I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. </p>
-  </div>
+    <div class="passions">
+      <div class="passion">
+        <img src="images/passion.jpg" alt="" />
+        <h2>Passion</h2>
+        <p>
+          I am very passionate about technology. I am very passionate about
+          technology. I am very passionate about technology.
+        </p>
+      </div>
 
-  <div class="passion">
-    <img src="images/passion.jpg" alt="">
-    <h2>Passion</h2>
-    <p>I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. </p>
-  </div>
-  
-  <div class="passion">
-    <img src="images/passion.jpg" alt="">
-    <h2>Passion</h2>
-    <p>I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. </p>
-  </div>
-  
-  <div class="passion">
-    <img src="images/passion.jpg" alt="">
-    <h2>Passion</h2>
-    <p>I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. I am very passionate about technology. </p>
-  </div>
-  
-</div>
+      <div class="passion">
+        <img src="images/passion.jpg" alt="" />
+        <h2>Approach</h2>
+        <p>
+          I am very passionate about technology. I am very passionate about
+          technology. I am very passionate about technology.
+        </p>
+      </div>
 
-<!-- Connect -->
-<div class="get-in-touch">
+      <div class="passion">
+        <img src="images/passion.jpg" alt="" />
+        <h2>Drive</h2>
+        <p>
+          I am very passionate about technology. I am very passionate about
+          technology. I am very passionate about technology.
+        </p>
+      </div>
+    </div>
 
- <div class="connect">
-  <h1>Get In Touch</h1>
-  <p>No man is an island. Together we can work on amazing projects and do great things. Reach out and let's talk. Let's connect.</p>
- </div>
+    <!-- Projects -->
+    <div style="text-align: center;" id="projects"><h1>Projects</h1></div>
 
- <div class="dev-team-photo">
-  <img src="images/dev-team.jpg" alt="Dev Team Picture">
-  </div>
+    <div class="projects" >
+      <div class="project">
+        <h2>Project 1</h2>
+        <p>This is a simple project implemented by html, css and javascript.</p>
+        <div class="live-demo">
+          <a href="">View live demo</a>
+        </div>
+      </div>
 
+      <div class="project">
+        <h2>Project 2</h2>
+        <p>This is a simple project implemented by html, css and javascript.</p>
+        <div class="live-demo">
+          <a href="">View live demo</a>
+        </div>
+      </div>
 
-</div>
+      <div class="project">
+        <h2>Project 3</h2>
+        <p>This is a simple project implemented by html, css and javascript.</p>
+        <div class="live-demo">
+          <a href="">View live demo</a>
+        </div>
+      </div>
+    </div>
 
-<!-- Links -->
-<div class="footer">
-  <div class="links">
-    <div> <a href="mailto:masakibrian@gmail.com" target="_blank"> <img src="images/gmail.png" alt="Gmail"></a></div>
-    <div> <a href="https://github.com/brian-masaki" target="_blank"> <img src="images/github.png" alt="GitHub"></a></div>
-    <div> <a href="https://www.linkedin.com/in/brian-masaki-b78263292" target="_blank"> <img src="images/linkedIn.png" alt="LinkedIn"></a></div>
-   
-   </div>
-   
-   <div><a href="#top" id="back-to-top"> Back to top</a></div>
-   
-   <div class="copyright">
-     <p>Brian Masaki <span>&#169; <span>2025</span></span> </p>
-   </div>
-   
-</div>
-<!-- JavaScript -->
+    <!-- Get In Touch -->
+    <div class="get-in-touch" id="get-in-touch">
+      <div class="get-in-touch-left">
+        <div class="connect">
+          <h1>Get In Touch</h1>
+          <p>
+            No man is an island. <br />Together we can work on amazing projects
+            and do great things. <br />Reach out and let's talk. <br />Let's
+            connect.
+          </p>
+        </div>
+
+        <!-- Links -->
+        <div class="links">
+          <div>
+            <a href="mailto:masakibrian@gmail.com" target="_blank">
+              <img src="images/gmail.png" alt="Gmail"
+            /></a>
+          </div>
+          <div>
+            <a href="https://github.com/brian-masaki" target="_blank">
+              <img src="images/github.png" alt="GitHub"
+            /></a>
+          </div>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/brian-masaki-b78263292"
+              target="_blank"
+            >
+              <img src="images/linkedIn.png" alt="LinkedIn"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dev Team Photo -->
+      <div class="dev-team-photo">
+        <img src="images/dev-team.jpg" alt="Dev Team Picture" />
+      </div>
+
+      <div class="quote">
+        <span>&#8220;</span>
+        <p>Technology is so good.</p>
+        <span>&#8221;</span>
+        <h2>Brian Masaki</h2>
+        <p>Chief Engineer, Brimax Creatives Ltd</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="back-to-top"><a href="#top"> Back to top</a></div>
+      <div class="copyright">
+        <p>
+          Brian Masaki <span>&#169; <span>2025</span></span>
+        </p>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
     <script src="script.js"></script>
   </body>
 </html>
