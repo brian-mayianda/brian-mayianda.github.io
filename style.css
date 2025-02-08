@@ -207,7 +207,7 @@ body {
   gap: 30px;
   grid-template-columns: auto;
   padding: 20px;
-
+  text-align: center;
 }
 
 .passion {
@@ -292,6 +292,7 @@ body {
 .quote {
   padding: 70px;
 }
+
 .footer {
   padding: 30px 0;
   background-color: rgb(0, 0, 0, 0.04);
