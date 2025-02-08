@@ -81,7 +81,7 @@ body {
 
 .top {
   padding: 16px;
-  background-image: linear-gradient(to left bottom, rgba(117, 0, 0, 0.3), rgba(4, 129, 0, 0.3), rgba(78, 0, 129, 0.3));
+  background-image: linear-gradient(to left bottom, rgba(117, 0, 0, 0.1), rgba(4, 129, 0, 0.1), rgba(78, 0, 129, 0.1));
 }
 
 .header {
@@ -125,16 +125,17 @@ body {
   font-size: 16px;
 }
 
-.work-status>button {
+.work-status>a {
   border: none;
   background-color: rgb(0, 124, 0);
+  text-decoration: none;
   color: white;
-  padding: 8px 16px;
+  padding: 6px 12px;
   border-radius: 12px;
   box-shadow: 0 2px 3px rgb(0, 0, 0, 0.1);
 }
 
-.work-status>button:hover {
+.work-status>a:hover {
   background-color: rgb(0, 70, 0);
   cursor: pointer;
   box-shadow: 0 4px 6px rgb(0, 0, 0, 0.2);
@@ -160,8 +161,20 @@ body {
   background-color: rgb(255, 255, 0);
 }
 
+
+.typescript {
+  background-color: rgb(0, 0, 175);
+  color: white;
+}
+
+
 .react {
   background-color: rgb(0, 183, 255);
+}
+
+.next-js {
+  background-color: rgb(65, 17, 0);
+  color: white;
 }
 
 .tailwindcss {
@@ -257,16 +270,6 @@ body {
   align-items: center;
 }
 
-/* get in touch right section is the dev team photo */
-
-.dev-team-photo img {
-  max-width: 200px;
-  max-height: 200px;
-  object-fit: cover;
-  border-radius: 16px;
-  opacity: 0.6;
-  box-shadow: 0 4px 4px rgb(0, 0, 0, 0.5), 0 4px 4px rgb(0, 0, 0, 0.25);
-}
 
 .links {
   display: flex;
@@ -285,6 +288,10 @@ body {
   background-color: #3e8e41;
 }
 
+
+.quote {
+  padding: 70px;
+}
 .footer {
   padding: 30px 0;
   background-color: rgb(0, 0, 0, 0.04);
