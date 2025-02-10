@@ -164,6 +164,11 @@ body {
 
 .figma {background-color: rgb(0, 255, 0);}
 
+.bottom-section {
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2), rgb(128, 0, 128, 0.1), rgb(128, 0, 128, 0.1), rgb(128, 0, 128, 0.15));
+}
+
+
 /* Passion Section */
 
 .passions {
