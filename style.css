@@ -63,9 +63,9 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-/* .menu:hover .menu-content {
+.menu:hover .menu-content {
   display: block;
-} */
+}
 
 .show {
   display: block;
