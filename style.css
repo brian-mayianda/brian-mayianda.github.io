@@ -108,6 +108,7 @@ margin-left: 16px;
 
 .about h2 {
   color: rgb(0, 0, 80);
+  font-weight: 600;
 }
 
 /* This targets the front-end dev and work status p tags*/
