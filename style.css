@@ -101,14 +101,19 @@ body {
   color: black;
 }
 
+.about h1 {
+font-weight: 600;
+margin-left: 16px;
+}
+
 .about h2 {
   color: rgb(0, 0, 80);
 }
 
-/* This targets the front-end dev part */
+/* This targets the front-end dev and work status p tags*/
 .about p:first-of-type {
-  color: rgba(0, 0, 106, 0.7);
-  font-size: 19px;
+  color: rgba(4, 0, 26, 0.7);
+  font-weight: 500;
 }
 
 .photo img {
