@@ -1,24 +1,31 @@
-* { box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
-  font-family: cursive, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(0, 0, 0, 0.1);
   font-size: 16px;
+  position: relative;
 }
 
 /* Menu Section */
 .menu-section {
-  padding: 10px;
+  padding: 12px 0;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 40);
 }
 
 .menu {
   position: relative;
   display: inline-block;
-  margin-right: 8%;
+  margin-right: 12%;
 }
 
 .menu-btn {
@@ -34,8 +41,9 @@ body {
 .menu-content {
   display: none;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.4);
-  min-width: 135px;
+  padding: 0;
+  background-color: rgb(0, 0, 50);
+  min-width: 130px;
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 10px;
@@ -43,24 +51,24 @@ body {
 
 /* Links inside the menu */
 .menu-content a {
-  color: black;
+  color: white;
   padding: 8px 16px;
   text-decoration: none;
   display: block;
 }
 
-#menu-top-btn {   
+#menu-top-btn {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-#menu-bottom-btn { 
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+#menu-bottom-btn {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .menu-content a:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 30);
 }
 
 .menu:hover .menu-content {
@@ -77,8 +85,8 @@ body {
 
 /* Top Section */
 .top {
-  padding: 12px;
-  margin-bottom: 50px;
+  padding: 20px;
+  margin: 50px 0 30px 0;
   background-image: linear-gradient(to right bottom, rgba(162, 23, 255, 0.1), rgba(255, 0, 0, 0.1), rgba(165, 31, 255, 0.1));
 }
 
@@ -88,23 +96,25 @@ body {
   border-radius: 16px;
   justify-content: center;
   align-items: center;
-  gap: 100px;
-  background-color: rgba(255, 255, 255, 0.9);
   text-align: center;
-  padding: 40px 0;
+  row-gap: 50px;
+  background-color: rgba(255, 255, 255);
+  padding: 30px 0 40px 0;
+  color: black;
 }
+
 .about h2 {
-  color: rgb(0, 0, 78);
+  color: rgb(0, 0, 80);
 }
 
 /* This targets the front-end dev part */
 .about p:first-of-type {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
 }
 
 .photo img {
-  max-width: 200px;
+  max-width: 220px;
   height: auto;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
@@ -112,9 +122,10 @@ body {
 
 /* Work Status */
 
+
 .work-status>p {
   margin-top: 30px;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 18px;
 }
 
@@ -123,7 +134,7 @@ body {
   background-color: rgb(0, 124, 0);
   text-decoration: none;
   color: white;
-  padding: 6px 12px;
+  padding: 10px 12px;
   border-radius: 12px;
   box-shadow: 0 2px 4px rgb(0, 0, 0, 0.2);
 }
@@ -131,41 +142,59 @@ body {
 .work-status>a:hover {
   background-color: rgb(0, 70, 0);
   cursor: pointer;
-  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.4);
+  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.3);
 }
 
 /* Tech Stack */
+
 .stack {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 40px 30px 40px;
+  margin: 0 40px 20px 40px;
 }
 
 .stack>div {
   margin-left: 16px;
-  margin-top: 10px;
-  padding: 6px 12px;
+  margin-top: 8px;
+  padding: 8px 14px;
   border-radius: 20px;
 }
 
-.javascript {background-color: rgb(255, 255, 0);}
+.javascript {
+  background-color: rgb(255, 255, 0);
+}
 
-.react {background-color: rgb(0, 183, 255);}
+.react {
+  background-color: rgb(0, 183, 255);
+}
 
-.tailwindcss { background-color: rgb(132, 0, 255); color: white;}
+.tailwindcss {
+  background-color: rgb(132, 0, 255);
+  color: white;
+}
 
-.html {background-color: rgb(255, 68, 0);}
+.html {
+  background-color: rgb(255, 68, 0);
+}
 
-.css {background-color: rgb(0, 0, 255); color: white;}
+.css {
+  background-color: rgb(0, 0, 255);
+  color: white;
+}
 
-.git {background-color: black; color: white;}
+.git {
+  background-color: black;
+  color: white;
+}
 
-.figma {background-color: rgb(0, 255, 0);}
+.figma {
+  background-color: rgb(0, 255, 0);
+}
 
 .bottom-section {
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2), rgb(128, 0, 128, 0.1), rgb(128, 0, 128, 0.1), rgb(128, 0, 128, 0.15));
+  background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.1), rgb(0, 0, 255, 0.04), rgb(0, 0, 255, 0.08), rgb(0, 0, 255, 0.1));
 }
 
 
@@ -184,16 +213,22 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(0, 0, 0, 0.04);
-  padding: 20px;
+  background-color: rgb(0, 0, 0, 0.08);
+  padding: 16px;
   border-radius: 16px;
 }
 
 .passion>img {
-  max-width: 40px;
+  max-width: 25px;
   border-radius: 50%;
   opacity: 0.4;
 }
+
+.passion h3 {
+  color: rgb(0, 0, 60);
+  margin-bottom: 2px;
+}
+
 
 /* Projects */
 .projects {
@@ -201,27 +236,34 @@ body {
   grid-template-columns: auto;
   gap: 40px;
   padding: 20px 30px;
+
 }
 
 .project {
-  background-color: rgba(0, 0, 0, 0.04);
+  background-color: rgba(0, 0, 0, 0.08);
   border-radius: 16px;
   text-align: center;
-  padding: 20px;
+  padding: 16px;
 }
 
-.project .live-demo {margin-top: 30px;}
+.project .live-demo {
+  margin: 32px 0 10px 0;
+}
+
+.project h3 {
+  color: rgb(0, 0, 60);
+}
 
 .live-demo a {
   text-decoration: none;
-  background-color: rgb(119, 0, 119, 0.6);
+  background-color: rgb(119, 0, 119, 0.7);
   color: white;
-  padding: 5px 10px;
+  padding: 8px 12px;
   border-radius: 12px;
 }
 
 .live-demo a:hover {
-  background-color: rgb(119, 0, 119, 0.8);
+  background-color: rgb(119, 0, 119, 0.9);
   cursor: pointer;
 }
 
@@ -266,7 +308,7 @@ body {
 
 .back-to-top a {
   text-decoration: none;
-  background-color: rgb(119, 0, 119, 0.6);
+  background-color: rgb(119, 0, 119, 0.7);
   color: white;
   padding: 6px 12px;
   border-radius: 12px;
@@ -274,24 +316,43 @@ body {
 }
 
 .back-to-top a:hover {
-  background-color: rgb(119, 0, 119, 0.8);
+  background-color: rgb(119, 0, 119, 0.9);
   cursor: pointer;
   box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
 }
 
 .copyright {
-  color: rgb(0, 0, 0, 0.6);
+  color: rgb(0, 0, 0, 0.9);
 }
 
 /* Responsiveness */
 @media screen and (min-width: 600px) {
-  .passions { grid-template-columns: auto auto;}
-  .projects { grid-template-columns: auto auto; }
- 
+  .passions {
+    grid-template-columns: auto auto;
+  }
+
+  .projects {
+    grid-template-columns: auto auto;
+  }
+
 }
 
 @media screen and (min-width: 800px) {
-  .header { flex-direction: row;}
-  .passions { grid-template-columns: auto auto auto;}
-  .projects { grid-template-columns: auto auto auto; }
+  .header {
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: start;
+  }
+
+  .work-status>a {
+    margin: 0 50px  ;
+  }
+
+  .passions {
+    grid-template-columns: auto auto auto;
+  }
+
+  .projects {
+    grid-template-columns: auto auto auto;
+  }
 }
