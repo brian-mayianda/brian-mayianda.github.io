@@ -7,38 +7,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Menu Section: Includes Switch Mode and Menu -->
+    <!-- Menu Section -->
     <div class="menu-section" id="menu-section">
-      <div class="switch-mode">
-        <img src="images/light-or-dark-mode.jpg" alt="light/dark mode" />
-      </div>
-
       <div class="menu">
-        <button class="menu-btn">Menu</button>
-        <div class="menu-content">
-          <a href="#get-in-touch">Get In Touch</a>
+        <button onclick="showMenuContent()" class="menu-btn" id="menu-btn">Menu</button>
+        <div class="menu-content" id="menu-content">
+          <a href="#get-in-touch" id="menu-top-btn">Get In Touch</a>
           <a href="#about">About</a>
-          <a href="#stack">Stack</a>
-          <a href="#projects">Projects</a>
+          <a href="#tech-stack">Stack</a>
+          <a href="#projects" id="menu-bottom-btn">Projects</a>
         </div>
       </div>
     </div>
 
-    <!-- Top Section: It wraps the header which contains Photo and Intro: I use it to add a background linear gradient to the header -->
-
+    <!-- Top Section: It wraps the Header which contains About (Intro) and Photo -->
     <div class="top" id="top">
       <!-- Header -->
       <div class="header">
-        <!-- Photo -->
-        <div class="photo">
-          <div><img src="images/graduation-selfie.jpg" alt="my-photo" /></div>
-        </div>
-
-        <!-- intro -->
+        <!-- About (Intro) -->
         <div class="about" id="about">
           <h1>Brian Masaki</h1>
-          <h2>Software Engineer</h2>
-          <p>Front-end developer</p>
+          <h2>__Software Engineer</h2>
+          <p>
+            <span style="color: green">&#183;</span> Front-end developer
+            <span style="color: green">&#183;</span>
+          </p>
 
           <p>
             Solving problems and crafting solutions to diverse real-world <br />
@@ -58,30 +51,34 @@
             <a href="#get-in-touch">Get In Touch</a>
           </div>
         </div>
+
+        <!-- Photo -->
+        <div class="photo">
+          <div><img src="images/graduation-selfie.jpg" alt="my-photo" /></div>
+        </div>
       </div>
     </div>
 
     <!-- Middle Section -->
 
     <!-- Tech Stack -->
+    <div style="text-align: center" id="tech-stack"><h2>Tech Stack</h2></div>
+
     <div class="stack" id="stack">
-      <div class="tech-stack">Tech Stack:</div>
       <div class="javascript"><div>Javascript</div></div>
-      <div class="typescript"><div>Typescript</div></div>
       <div class="react"><div>React</div></div>
-      <div class="next-js"><div>Next.js</div></div>
-      <div class="css"><div>CSS</div></div>
       <div class="tailwindcss"><div>TailwindCSS</div></div>
-      <div class="html"><div>HTML</div></div>
       <div class="git"><div>Git</div></div>
       <div class="figma"><div>Figma</div></div>
+      <div class="html"><div>HTML</div></div>
+      <div class="css"><div>CSS</div></div>
     </div>
 
     <!-- Passion Section -->
     <div class="passions">
       <div class="passion">
         <img src="images/passion.jpg" alt="" />
-        <h2>Passion</h2>
+        <h3>Passion</h3>
         <p>
           I am very passionate about technology. I am very passionate about
           technology. I am very passionate about technology.
@@ -90,7 +87,7 @@
 
       <div class="passion">
         <img src="images/passion.jpg" alt="" />
-        <h2>Approach</h2>
+        <h3>Approach</h3>
         <p>
           I am very passionate about technology. I am very passionate about
           technology. I am very passionate about technology.
@@ -99,7 +96,7 @@
 
       <div class="passion">
         <img src="images/passion.jpg" alt="" />
-        <h2>Drive</h2>
+        <h3>Drive</h3>
         <p>
           I am very passionate about technology. I am very passionate about
           technology. I am very passionate about technology.
@@ -108,11 +105,11 @@
     </div>
 
     <!-- Projects -->
-    <div style="text-align: center" id="projects"><h1>Projects</h1></div>
+    <div style="text-align: center" id="projects"><h2>Projects</h2></div>
 
     <div class="projects">
       <div class="project">
-        <h2>Project 1</h2>
+        <h3>Project 1</h3>
         <p>This is a simple project implemented by html, css and javascript.</p>
         <div class="live-demo">
           <a href="">View live demo</a>
@@ -120,7 +117,7 @@
       </div>
 
       <div class="project">
-        <h2>Project 2</h2>
+        <h3>Project 2</h3>
         <p>This is a simple project implemented by html, css and javascript.</p>
         <div class="live-demo">
           <a href="">View live demo</a>
@@ -128,7 +125,7 @@
       </div>
 
       <div class="project">
-        <h2>Project 3</h2>
+        <h3>Project 3</h3>
         <p>This is a simple project implemented by html, css and javascript.</p>
         <div class="live-demo">
           <a href="">View live demo</a>
@@ -138,58 +135,48 @@
 
     <!-- Get In Touch -->
     <div class="get-in-touch" id="get-in-touch">
-      <div class="get-in-touch-left">
-        <div class="connect">
-          <h1>Get In Touch</h1>
-          <p>
-            No man is an island. <br />Together we can work on amazing projects
-            and do great things. <br />Reach out and let's talk. <br />Let's
-            connect.
-          </p>
-        </div>
-
-        <!-- Links -->
-        <div class="links">
-          <div>
-            <a href="mailto:masakibrian@gmail.com" target="_blank">
-              <img src="images/gmail.png" alt="Gmail"
-            /></a>
-          </div>
-          <div>
-            <a href="https://github.com/brian-masaki" target="_blank">
-              <img src="images/github.png" alt="GitHub"
-            /></a>
-          </div>
-          <div>
-            <a
-              href="https://www.linkedin.com/in/brian-masaki-b78263292"
-              target="_blank"
-            >
-              <img src="images/linkedIn.png" alt="LinkedIn"
-            /></a>
-          </div>
-        </div>
+      <div class="connect">
+        <h1>Get In Touch</h1>
+        <p>
+          No man is an island. <br />Together we can work on amazing projects
+          and do great things. <br />Reach out and let's talk. <br />Let's
+          connect.
+        </p>
       </div>
 
-      <div class="get-in-touch-right">
-        <div class="quote">
-          <span>&#8220;</span>
-          <p>Technology is so good.</p>
-          <span>&#8221;</span>
-          <h2>Brian Masaki</h2>
-          <p>Chief Engineer, Brimax Creatives Ltd</p>
+      <!-- Links -->
+      <div class="links">
+        <div>
+          <a href="mailto:masakibrian@gmail.com" target="_blank">
+            <img src="images/gmail.png" alt="Gmail"
+          /></a>
+        </div>
+        <div>
+          <a href="https://github.com/brian-masaki" target="_blank">
+            <img src="images/github.png" alt="GitHub"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/brian-masaki-b78263292"
+            target="_blank"
+          >
+            <img src="images/linkedIn.png" alt="LinkedIn"
+          /></a>
         </div>
       </div>
     </div>
 
     <!-- Footer -->
     <div class="footer">
-      <div class="back-to-top"><a href="#menu-section"> Back to top</a></div>
+
+      <div class="back-to-top"><a href="#menu-section">Back to top</a></div>
       <div class="copyright">
         <p>
-          <span>&#169;<span>2025 </span>&#183;</span> Brian Masaki
+          <span>&#169;<span> <span id="current-year"></span> </span>&#183;</span> Brian Masaki
         </p>
       </div>
+
     </div>
 
     <!-- JavaScript -->
