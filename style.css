@@ -115,14 +115,11 @@ body {
   font-weight: 450;
 }
 
-.about p:last-of-type {
-  color: rgb(50, 50, 50);
-}
-
 /* This targets the front-end dev and work status p tags*/
 .about p:first-of-type {
-  color: rgba(10, 10, 60, 0.7);
-  font-weight: 500;
+  color: rgba(26, 26, 89, 0.8);
+  font-weight: 450;
+  font-size: 16px;
 }
 
 .photo img {
@@ -135,7 +132,7 @@ body {
 /* Work Status */
 
 
-.work-status>p {
+.work-status p {
   margin-top: 30px;
   margin-bottom: 20px;
 }
@@ -145,8 +142,8 @@ body {
   background-color: rgb(0, 124, 0);
   text-decoration: none;
   color: white;
-  padding: 10px 12px;
-  border-radius: 12px;
+  padding: 8px 10px;
+  border-radius: 10px;
   box-shadow: 0 2px 4px rgb(0, 0, 0, 0.2);
 }
 
@@ -157,7 +154,9 @@ body {
 }
 
 /* Tech Stack */
-
+#tech-stack {
+  margin-top: 50px;
+}
 .stack {
   display: flex;
   flex-wrap: wrap;
@@ -178,7 +177,7 @@ body {
 }
 
 .react {
-  background-color: rgb(0, 183, 255);
+  background-color: rgb(40, 194, 255);
 }
 
 .tailwindcss {
@@ -187,11 +186,12 @@ body {
 }
 
 .html {
-  background-color: rgb(255, 68, 0);
+  background-color: rgb(186, 50, 0);
+  color: white;
 }
 
 .css {
-  background-color: rgb(0, 0, 255);
+  background-color: rgb(0, 0, 140);
   color: white;
 }
 
@@ -352,7 +352,7 @@ body {
 @media screen and (min-width: 800px) {
 
   .menu-section {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .menu:hover .menu-content {
@@ -360,7 +360,7 @@ body {
   }
 
   .menu-btn {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .header {
@@ -386,7 +386,7 @@ body {
   }
 
   .about p:first-of-type {
-    font-size: 20px;
+    font-size: 18.2px;
   }
 
   .photo {
