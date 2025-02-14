@@ -225,7 +225,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255);
-  padding: 10px;
+  padding: 12px;
   border-radius: 10px;
 }
 
@@ -254,7 +254,7 @@ body {
   background-color: rgba(255, 255, 255);
   border-radius: 10px;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
 }
 
 .project .live-demo {
@@ -282,7 +282,7 @@ body {
 .get-in-touch {
   display: flex;
   flex-direction: column;
-  padding: 10px 15px 30px 15px;
+  padding: 20px 30px;
   align-items: center;
   justify-content: center;
   text-align: center;
