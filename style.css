@@ -89,7 +89,7 @@ body {
 /* Top Section */
 .top {
   padding: 25px;
-  margin: 52px 0 30px 0;
+  margin: 52px 0 0 0;
   background-image: linear-gradient(to right bottom, rgba(162, 23, 255, 0.1), rgba(255, 0, 0, 0.1), rgba(160, 30, 255, 0.1));
 }
 
@@ -123,7 +123,7 @@ body {
 }
 
 .photo img {
-  max-width: 200px;
+  max-width: 220px;
   height: auto;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
@@ -155,8 +155,9 @@ body {
 
 /* Tech Stack */
 #tech-stack {
-  margin-top: 50px;
+  margin-top: 30px;
 }
+
 .stack {
   display: flex;
   flex-wrap: wrap;
