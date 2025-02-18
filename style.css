@@ -362,10 +362,6 @@ body {
     display: block;
   } */
 
-  .menu-btn {
-    font-size: 18px;
-  }
-
   .header {
     flex-direction: row;
     text-align: start;
