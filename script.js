@@ -11,7 +11,7 @@ const showMenuContent = () => {
 
 
 window.onclick = (e) => {
-  if (!e.target.matches('.menu-btn')){
+  if (!e.target.matches('#menu-icon')){
 menuContent.classList.remove('show');
   }
 }

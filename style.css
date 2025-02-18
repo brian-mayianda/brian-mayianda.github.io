@@ -33,12 +33,15 @@ body {
 }
 
 .menu-btn {
-  background-color: rgb(0, 124, 0);
-  color: white;
-  padding: 6px 12px;
-  border-radius: 10px;
-  font-size: 16px;
+  outline: none;
   border: none;
+}
+
+.menu-btn img {
+  max-width: 30px;
+  max-height: 26px;
+  border-radius: 4px;
+  outline: none;
 }
 
 /* Menu Content (Hidden by Default) */
@@ -80,10 +83,6 @@ body {
 
 .show {
   display: block;
-}
-
-.menu:hover .menu-btn {
-  background-color: rgb(0, 70, 0);
 }
 
 /* Top Section */
@@ -358,9 +357,10 @@ body {
     font-size: 18px;
   }
 
-  .menu:hover .menu-content {
+  /* Making the menu icon show the menu-content on hover on big screens above 800px width */
+  /* .menu:hover .menu-content {
     display: block;
-  }
+  } */
 
   .menu-btn {
     font-size: 18px;
