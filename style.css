@@ -122,7 +122,6 @@ body {
 .about p:first-of-type {
   color: rgba(26, 26, 89, 0.8);
   font-weight: 450;
-  font-size: 14px;
 }
 
 .photo img {
@@ -395,7 +394,7 @@ body {
   }
 
   .about p:first-of-type {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .photo {
