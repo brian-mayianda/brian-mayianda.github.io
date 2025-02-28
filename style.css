@@ -146,7 +146,7 @@ body {
   padding: 8px 10px;
   border-radius: 12px;
   box-shadow: 0 2px 4px rgb(0, 0, 0, 0.2);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .work-status>a:hover {
@@ -408,6 +408,7 @@ body {
 
   .work-status>a {
     margin: 0 50px;
+    font-size: 18px;
   }
 
   .stack {
