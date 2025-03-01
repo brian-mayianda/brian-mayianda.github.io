@@ -41,8 +41,8 @@ body {
 }
 
 .menu-icon-container img {
-  max-width: 30px;
-  max-height: 22px;
+  max-width: 18px;
+  max-height: 18px;
   border-radius: 4px;
   outline: none;
 }
@@ -91,7 +91,7 @@ body {
 /* Top Section */
 .top {
   padding: 20px;
-  margin: 52px 0 0 0;
+  margin: 48px 0 0 0;
   background-image: linear-gradient(to right bottom, rgba(162, 23, 255, 0.1), rgba(255, 0, 0, 0.1), rgba(160, 30, 255, 0.1));
 }
 
@@ -105,7 +105,7 @@ body {
   row-gap: 50px;
   background-color: rgb(240, 240, 240);
   padding: 70px 50px 0 50px;
-  box-shadow: 0 4px 4px rgb(190, 190, 190);
+  box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2);
 }
 
 .about h1 {
@@ -142,16 +142,17 @@ body {
   background-color: rgb(0, 100, 0);
   text-decoration: none;
   color: white;
-  padding: 8px 10px;
-  border-radius: 12px;
+  padding: 6px 8px;
+  border-radius: 8px;
   box-shadow: 0 2px 4px rgb(0, 0, 0, 0.2);
-  font-size: 16px;
+  font-size: 14px;
+  transition: all ease-in-out 0.3s;
 }
 
 .work-status>a:hover {
   background-color: rgb(0, 110, 0);
   cursor: pointer;
-  box-shadow: 0 4px 10px rgb(0, 0, 0, 0.4);
+  box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2);
 }
 
 /* Tech Stack */
@@ -170,9 +171,10 @@ body {
 }
 
 .stack>div {
-  margin-left: 10px;
-  margin-top: 10px;
-  padding: 5px 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 8px;
+  padding: 4px 10px;
   border-radius: 20px;
 }
 
@@ -241,6 +243,7 @@ body {
   background-color: rgb(240, 240, 240);
   padding: 12px;
   border-radius: 10px;
+  box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2);
 }
 
 .passion>img {
@@ -269,6 +272,7 @@ body {
   border-radius: 10px;
   text-align: center;
   padding: 15px;
+  box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2);
 }
 
 .project .live-demo {
@@ -281,15 +285,16 @@ body {
 
 .live-demo a {
   text-decoration: none;
-  background-color: rgb(70, 0, 70);
+  background-color: rgb(0, 107, 150);
   color: white;
-  padding: 8px 10px;
-  border-radius: 12px;
+  padding: 4px 8px;
+  border-radius: 8px;
   font-size:  14px;
+  transition: all ease-in-out 0.3s;
 }
 
 .live-demo a:hover {
-  background-color: rgb(90, 0, 90);
+  background-color: rgb(0, 135, 189);
   cursor: pointer;
 }
 
@@ -330,27 +335,28 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px 0;
+  padding: 20px 0;
   background-color: rgb(60, 60, 60, 0.1);
 }
 
 .back-to-top a {
   text-decoration: none;
-  background-color: rgb(70, 0, 70);
+  background-color: rgb(0, 107, 150);
   color: white;
-  padding: 8px 10px;
-  border-radius: 12px;
+  padding: 2px 6px;
+  border-radius: 6px;
   font-size: 14px;
+  transition: all ease-in-out 0.3s;
 }
 
 .back-to-top a:hover {
-  background-color: rgb(90, 0, 90);
+  background-color: rgb(0, 135, 189);
   cursor: pointer;
-  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2);
 }
 
 .copyright {
-  color: rgb(0, 0, 0, 0.9);
+  color: rgb(0, 0, 0);
 }
 
 /* Responsiveness */
@@ -407,7 +413,6 @@ body {
 
   .work-status>a {
     margin: 0 50px;
-    font-size: 18px;
   }
 
   .stack {
