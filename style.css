@@ -375,10 +375,6 @@ body {
 
 @media screen and (min-width: 800px) {
 
-  .menu-section {
-    font-size: 18px;
-  }
-
   .header {
     flex-direction: row;
     text-align: start;
