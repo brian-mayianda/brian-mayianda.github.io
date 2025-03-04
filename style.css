@@ -165,7 +165,8 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 1% 40px 1%;
+  padding: 0 10px;
+  margin: 0 0 40px 0;
   font-family: monospace;
   font-weight: 500;
   font-size: 14px;
