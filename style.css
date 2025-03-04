@@ -165,7 +165,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 0 40px 0;
+  margin: 0 4% 40px 4%;
   font-family: monospace;
   font-weight: 500;
   font-size: 14px;
@@ -304,6 +304,7 @@ body {
 .get-in-touch {
   display: flex;
   flex-direction: column;
+  gap: 20px;
   padding: 20px 30px;
   align-items: center;
   justify-content: center;
@@ -311,10 +312,13 @@ body {
   margin-top: 15px;
 }
 
+.get-in-touch h2 {
+  margin-bottom: 30px;
+}
+
 .links {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
 }
 
 .links a img {
@@ -337,8 +341,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
+  padding: 25px 0;
   background-color: rgb(60, 60, 60, 0.1);
+  margin-top: 30px;
 }
 
 .back-to-top a {
