@@ -422,6 +422,10 @@ body {
   .stack {
     font-size: 17px;
   }
+
+  .stack>div  {
+    padding: 5px 10px;
+  }
   .passions {
     grid-template-columns: auto auto auto;
   }
