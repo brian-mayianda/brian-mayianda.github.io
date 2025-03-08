@@ -232,6 +232,21 @@ background-color: darkgreen;
 color: white;
 }
 
+.python {
+  background-color: rgb(186, 50, 0);
+  color: white;
+}
+
+.c {
+  background-color: darkgreen;
+  color: white;
+}
+
+.mongodb {
+  background-color: darkcyan;
+  color: white;
+}
+
 .bottom-section {
   background-color: rgb(135, 206, 235, 0.3);
 }
