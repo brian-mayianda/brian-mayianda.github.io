@@ -219,8 +219,17 @@ body {
 }
 
 .figma {
-  background-color: darkgreen;
+  background-color: lightseagreen;
   color: white;
+}
+
+.mysql {
+  background-color: yellow;
+}
+
+.node-js {
+background-color: darkgreen;
+color: white;
 }
 
 .bottom-section {
