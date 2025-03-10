@@ -172,8 +172,8 @@ body {
 }
 
 .stack>div {
-  margin-left: 6px;
-  margin-right: 6px;
+  margin-left: 7px;
+  margin-right: 7px;
   margin-top: 8px;
   padding: 4px 8px;
   border-radius: 20px;
@@ -230,6 +230,21 @@ body {
 .node-js {
 background-color: darkgreen;
 color: white;
+}
+
+.python {
+  background-color: rgb(186, 50, 0);
+  color: white;
+}
+
+.c {
+  background-color: darkgreen;
+  color: white;
+}
+
+.mongodb {
+  background-color: darkcyan;
+  color: white;
 }
 
 .bottom-section {
@@ -448,6 +463,7 @@ color: white;
     margin-right: 20%;
   }
 }
+<<<<<<< HEAD
 
 @media screen and (min-width: 900px) {
   .about h1 {
@@ -459,3 +475,5 @@ color: white;
   }
 
 }
+=======
+>>>>>>> 8f6bf426c1f7c324846435792d55d617993e9736
