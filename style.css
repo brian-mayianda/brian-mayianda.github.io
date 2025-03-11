@@ -120,8 +120,8 @@ body {
 
 /* This targets the front-end dev and work status p tags*/
 .about p:first-of-type {
-  color: rgb(90, 90, 90);
-  font-weight: 500;
+  color: rgb(80, 80, 80);
+  font-weight: 450;
 }
 
 .photo img {
@@ -223,23 +223,13 @@ body {
   color: white;
 }
 
-.mysql {
-  background-color: yellow;
-}
-
 .node-js {
-background-color: darkgreen;
-color: white;
-}
-
-.python {
-  background-color: rgb(186, 50, 0);
-  color: white;
-}
-
-.c {
   background-color: darkgreen;
   color: white;
+  }
+
+.mysql {
+  background-color: yellow;
 }
 
 .mongodb {
