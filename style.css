@@ -180,7 +180,7 @@ body {
 }
 
 .javascript {
-  background-color: rgb(210, 210, 0);
+  background-color: rgb(255, 255, 0);
 }
 
 .typescript {
@@ -228,10 +228,6 @@ body {
   color: white;
   }
 
-.mysql {
-  background-color: rgb(210, 210, 0);
-}
-
 .mongodb {
   background-color: rgb(72, 121, 0);
   color: white;
@@ -244,6 +240,10 @@ body {
 .python {
   background-color: darkcyan;
   color: white;
+}
+
+.mysql {
+  background-color: rgb(255, 255, 0 );
 }
 
 .bottom-section {
