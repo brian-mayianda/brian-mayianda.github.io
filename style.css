@@ -214,7 +214,7 @@ body {
 }
 
 .git {
-  background-color: black;
+  background-color: rgb(15, 15, 15);
   color: white;
 }
 
@@ -237,6 +237,10 @@ body {
   color: white;
 }
 
+.express {
+  background-color: rgb(61, 61, 61);
+  color: white;
+}
 .python {
   background-color: darkcyan;
   color: white;
