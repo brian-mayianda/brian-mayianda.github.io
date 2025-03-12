@@ -233,6 +233,11 @@ body {
 }
 
 .mongodb {
+  background-color: rgb(72, 121, 0);
+  color: white;
+}
+
+.python {
   background-color: darkcyan;
   color: white;
 }
