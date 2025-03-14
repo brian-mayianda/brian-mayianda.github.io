@@ -118,9 +118,8 @@ body {
   font-weight: 450;
 }
 
-/* This targets the front-end dev and work status p tags*/
-.about p:first-of-type {
-  color: rgb(80, 80, 80);
+#fullstack {
+  color: rgb(0, 73, 102);
   font-weight: 450;
 }
 
@@ -132,9 +131,11 @@ body {
 }
 
 /* Work Status */
-.work-status p {
+#work-status {
   margin-top: 30px;
   margin-bottom: 20px;
+  color: rgb(0, 30, 0);
+  font-weight: 450;
 }
 
 .work-status>a {
@@ -256,7 +257,7 @@ body {
   display: grid;
   gap: 30px;
   grid-template-columns: auto;
-  padding: 20px 15px;
+  padding: 25px;
   text-align: center;
 }
 
@@ -288,7 +289,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   gap: 30px;
-  padding: 10px 15px;
+  padding: 10px 25px;
 
 }
 
@@ -329,7 +330,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 20px 30px;
+  padding: 20px 25px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -426,8 +427,8 @@ body {
     font-size: 30px;
   }
 
-  .about p:first-of-type {
-    font-size: 17px;
+#fullstack {
+    font-size: 22px;
   }
 
   .photo {
