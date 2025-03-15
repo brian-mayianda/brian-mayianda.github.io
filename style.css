@@ -421,15 +421,15 @@ body {
   }
 
   .about h1 {
-    font-size: 40px;
-  }
-
-  .about h2 {
     font-size: 35px;
   }
 
+  .about h2 {
+    font-size: 25px;
+  }
+
 #fullstack {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .photo {
@@ -467,11 +467,14 @@ body {
 
 @media screen and (min-width: 900px) {
   .about h1 {
-    font-size: 55px;
+    font-size: 45px;
   }
 
   .about h2 {
-    font-size: 35px;
+    font-size: 32px;
   }
 
+  #fullstack {
+    font-size: 24px;
+  }
 }
