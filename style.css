@@ -121,6 +121,7 @@ body {
 #fullstack {
   color: rgb(0, 73, 102);
   font-weight: 450;
+  font-size: 20px;
 }
 
 .photo img {
@@ -424,11 +425,11 @@ body {
   }
 
   .about h2 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
 #fullstack {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .photo {
