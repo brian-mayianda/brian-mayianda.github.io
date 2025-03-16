@@ -481,6 +481,7 @@ body {
 
   .stack {
     font-size: 16px;
+    padding: 0 5%;
   }
 
   .stack>div  {
