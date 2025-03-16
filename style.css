@@ -116,6 +116,7 @@ body {
 .about h2 {
   color: rgb(0, 0, 80, 0.8);
   font-weight: 450;
+  font-size: 24px;
 }
 
 #fullstack {
@@ -135,8 +136,9 @@ body {
 #work-status {
   margin-top: 30px;
   margin-bottom: 20px;
-  color: rgb(0, 30, 0);
+  color: rgb(0, 45, 63);
   font-weight: 450;
+
 }
 
 .work-status>a {
@@ -231,7 +233,9 @@ body {
   }
 
 .mongodb {
-  background-color: darkgoldenrod;
+  background-color: slategray;
+  color: white;
+
 }
 
 .express {
@@ -273,12 +277,12 @@ body {
 }
 
 .nginx {
-  background-color: fuchsia;
+  background-color: chocolate;
   color: white;
 }
 
 .vitest {
-  background-color: turquoise;
+  background-color: hotpink;
 }
 
 .sass {
