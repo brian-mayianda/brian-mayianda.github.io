@@ -282,6 +282,9 @@ body {
   background-color: yellowgreen;
 }
 
+.sass {
+  background-color: orange;
+}
 
 .bottom-section {
   background-color: rgb(135, 206, 235, 0.3);
