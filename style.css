@@ -230,7 +230,7 @@ body {
 .node-js {
   background-color: darkolivegreen;
   color: white;
-  }
+}
 
 .mongodb {
   background-color: slategray;
@@ -242,13 +242,14 @@ body {
   background-color: rgb(61, 61, 61);
   color: white;
 }
+
 .python {
   background-color: darkcyan;
   color: white;
 }
 
 .mysql {
-  background-color: rgb(255, 255, 0 );
+  background-color: rgb(255, 255, 0);
 }
 
 .django {
@@ -290,7 +291,7 @@ body {
 }
 
 .bottom-section {
-  background-color: rgb(135, 206, 235, 0.3);
+  background-color: rgba(135, 206, 235, 0.3);
 }
 
 /* Passion Section */
@@ -325,29 +326,45 @@ body {
   margin-bottom: 2px;
 }
 
-
-/* Projects */
-.projects {
+.projects-and-devgif {
   display: grid;
   grid-template-columns: auto;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   gap: 30px;
-  padding: 10px 25px;
-
+  margin: 40px;
 }
 
-.project {
+#devgif>img {
+  width: 400px;
+}
+/* Projects */
+.projects {
   background-color: rgb(240, 240, 240);
   border-radius: 10px;
   text-align: center;
-  padding: 15px;
+  padding: 30px;
   box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2);
 }
 
-.project .live-demo {
-  margin: 32px 0 10px 0;
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
 }
 
-.project h3 {
+.prev-btn>button:hover, .next-btn>button:hover {
+cursor: pointer;
+} 
+
+.project-buttons {
+  margin: 40px 0 10px 0;
+}
+
+.projects h3 {
   color: rgb(0, 0, 60);
 }
 
@@ -357,7 +374,7 @@ body {
   color: white;
   padding: 4px 8px;
   border-radius: 8px;
-  font-size:  14px;
+  font-size: 14px;
   transition: all ease-in-out 0.3s;
 }
 
@@ -438,11 +455,6 @@ body {
   .passions {
     grid-template-columns: auto auto;
   }
-
-  .projects {
-    grid-template-columns: auto auto;
-  }
-
 }
 
 @media screen and (min-width: 800px) {
@@ -469,7 +481,7 @@ body {
     font-size: 25px;
   }
 
-#fullstack {
+  #fullstack {
     font-size: 22px;
   }
 
@@ -490,14 +502,11 @@ body {
     padding: 0 5%;
   }
 
-  .stack>div  {
+  .stack>div {
     padding: 5px 10px;
   }
-  .passions {
-    grid-template-columns: auto auto auto;
-  }
 
-  .projects {
+  .passions {
     grid-template-columns: auto auto auto;
   }
 
@@ -519,7 +528,13 @@ body {
   #fullstack {
     font-size: 24px;
   }
+
+  .projects-and-devgif {
+    grid-template-columns: auto auto;
+    gap: 100px;
+  }
 }
+
 @media screen and (min-width: 1000px) {
   .stack {
     padding: 0 10%;

@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brian Mayianda | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="./favicon_io/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="./favicon_io/favicon-16x16.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
   </head>
   <body>
     <!-- Menu Section -->
@@ -23,13 +27,13 @@
         <div class="menu-content" id="menu-content">
           <a href="#get-in-touch" id="menu-top-btn">Get In Touch</a>
           <a href="#tech-stack-section">Tech Stack</a>
-          <a href="#projects" >Projects</a>
+          <a href="#projects">Projects</a>
           <a href="#header" id="menu-bottom-btn">About</a>
         </div>
       </div>
     </div>
 
-    <!-- Top Section: It wraps the Header which contains About (Intro) and Photo -->
+    <!-- Top Section: It wraps the Header which contains About and Photo -->
     <div class="top" id="top">
       <!-- Header -->
       <div class="header" id="header">
@@ -37,9 +41,7 @@
         <div class="about" id="about">
           <h1>Brian Mayianda</h1>
           <h2>Software Engineer</h2>
-          <p id="fullstack">
-            < Fullstack Developer />
-          </p>
+          <p id="fullstack">< Fullstack Developer /></p>
 
           <p>
             Solving problems and crafting solutions to diverse real-world
@@ -49,9 +51,7 @@
           </p>
 
           <div class="work-status">
-            <p id="work-status">
-              I am currently looking for work 
-            </p>
+            <p id="work-status">I am currently looking for work</p>
             <a href="#get-in-touch">Get In Touch</a>
           </div>
         </div>
@@ -97,8 +97,6 @@
         <div class="vitest"><div>Vitest</div></div>
         <div class="aws"><div>AWS</div></div>
         <div class="nginx"><div>NGINX</div></div>
-     
-  
       </div>
     </div>
 
@@ -134,46 +132,45 @@
           </p>
         </div>
       </div>
-      <!-- Projects -->
-      <div style="text-align: center" id="projects"><h2>Projects</h2></div>
 
-      <div class="projects">
-        <div class="project">
-          <h3>Calculator</h3>
-          <p>This is a calculator implemented with vanilla JavaScript.</p>
-          <div class="live-demo">
-            <a
-              href="https://brian-mayianda.github.io/Vanilla-Javascript-Calculator/"
-              target="_blank"
-              >Live demo</a
-            >
-          </div>
+      <!-- Projects and Devgif Container -->
+
+      <div class="projects-and-devgif">
+        <!-- Devgif -->
+        <div id="devgif">
+          <img src="images/dev.gif" alt="coding" />
         </div>
 
-        <div class="project">
-          <h3>Live user filter</h3>
-          <p>
-            This is a live user filter project implemented with vanilla
-            JavaScript.
+        <!-- Projects -->
+        <div class="projects" id="projects">
+          <h2>Sample Projects</h2>
+          <h3 id="project-title">Calculator</h3>
+          <p id="project-description">
+            This is a calculator implemented with vanilla JavaScript.
           </p>
-          <div class="live-demo">
-            <a
-              href="https://brian-mayianda.github.io/Live-User-Filter/"
-              target="_blank"
-              >Live demo</a
-            >
-          </div>
-        </div>
 
-        <div class="project">
-          <h3>Movies Site</h3>
-          <p>This is a movies site implemented with vanilla JavaScript.</p>
-          <div class="live-demo">
-            <a
-              href="https://brian-mayianda.github.io/Frontend-Movie-App"
-              target="_blank"
-              >Live demo</a
-            >
+          <div class="project-buttons">
+            <div class="prev-btn">
+              <button>
+                <i class="fas fa-chevron-left"></i>
+              </button>
+            </div>
+
+            <div class="live-demo">
+              <span>
+                <a id="live-demo"
+                  href="https://brian-mayianda.github.io/Vanilla-Javascript-Calculator/"
+                  target="_blank"
+                  >Live demo</a
+                >
+              </span>
+            </div>
+
+            <div class="next-btn">
+              <button>
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -183,12 +180,12 @@
         <div class="connect">
           <h2>Get In Touch</h2>
           <p>
-            No man is an island. Together we can work on amazing projects
-            and do great things. I'm always learning and improving my skills. 
-            I'm always open to forming new connections with like-minded people. <br>
-            <br>
-            Reach out and let's talk.
-            Let's connect.
+            No man is an island. Together we can work on amazing projects and do
+            great things. I'm always learning and improving my skills. I'm
+            always open to forming new connections with like-minded people.
+            <br />
+            <br />
+            Reach out and let's talk. Let's connect.
           </p>
         </div>
 
@@ -201,7 +198,10 @@
           </div>
 
           <div>
-            <a href="https://www.linkedin.com/in/brian-mayianda" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/brian-mayianda"
+              target="_blank"
+            >
               <img src="images/linkedIn.png" alt="LinkedIn"
             /></a>
           </div>
