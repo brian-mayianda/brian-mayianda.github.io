@@ -333,11 +333,11 @@ body {
   align-content: center;
   align-items: center;
   gap: 30px;
-  margin: 40px;
+  margin: 30px;
 }
 
 #devgif>img {
-  width: 400px;
+  max-width: 400px;
 }
 /* Projects */
 .projects {
