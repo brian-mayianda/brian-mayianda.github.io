@@ -122,7 +122,7 @@ body {
 #fullstack {
   color: rgb(0, 73, 102);
   font-weight: 450;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .photo img {
@@ -339,6 +339,12 @@ body {
   max-width: 250px;
 }
 /* Projects */
+
+#sample-projects {
+  color: rgb(31, 31, 31);
+  font-size: 22px;
+}
+
 .projects {
   background-color: rgb(240, 240, 240);
   border-radius: 10px;
@@ -484,7 +490,7 @@ cursor: pointer;
   }
 
   #fullstack {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .photo {
@@ -528,7 +534,7 @@ cursor: pointer;
   }
 
   #fullstack {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .projects-and-devgif {
