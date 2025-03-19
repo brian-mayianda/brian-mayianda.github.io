@@ -303,6 +303,11 @@ body {
   margin-bottom: 2px;
 }
 
+.quote {
+  text-align: center;
+  margin: 60px 25px;
+}
+
 .projects-and-devgif {
   display: grid;
   grid-template-columns: auto;
