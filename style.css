@@ -203,8 +203,12 @@ body {
 }
 
 .tailwindcss {
-  background-color: darkmagenta;
+  background-color: purple;
   color: white;
+}
+
+.sass {
+  background-color: orange;
 }
 
 .html {
@@ -228,12 +232,12 @@ body {
 }
 
 .node-js {
-  background-color: darkolivegreen;
+  background-color: forestgreen;
   color: white;
 }
 
 .mongodb {
-  background-color: slategray;
+  background-color: blueviolet;
   color: white;
 
 }
@@ -253,12 +257,7 @@ body {
 }
 
 .django {
-  background-color: darkgreen;
-  color: white;
-}
-
-.aws {
-  background-color: mediumslateblue;
+  background-color: indigo;
   color: white;
 }
 
@@ -267,28 +266,6 @@ body {
   color: white;
 }
 
-.kubernetes {
-  background-color: darkorchid;
-  color: white;
-}
-
-.docker {
-  background-color: rgb(49, 49, 49);
-  color: white;
-}
-
-.nginx {
-  background-color: chocolate;
-  color: white;
-}
-
-.vitest {
-  background-color: hotpink;
-}
-
-.sass {
-  background-color: orange;
-}
 
 .bottom-section {
   background-color: rgba(135, 206, 235, 0.3);
@@ -338,6 +315,7 @@ body {
 .devgif>img {
   max-width: 250px;
 }
+
 /* Projects */
 
 #sample-projects {
@@ -361,9 +339,10 @@ body {
 
 }
 
-.prev-btn>button:hover, .next-btn>button:hover {
-cursor: pointer;
-} 
+.prev-btn>button:hover,
+.next-btn>button:hover {
+  cursor: pointer;
+}
 
 .project-buttons {
   margin: 40px 0 10px 0;
@@ -460,6 +439,7 @@ cursor: pointer;
   .passions {
     grid-template-columns: auto auto;
   }
+
   .devgif>img {
     max-width: 400px;
   }
