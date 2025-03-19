@@ -12,6 +12,13 @@ projectLink: "https://brian-mayianda.github.io/Live-User-Filter/",
 },
 
 {
+  title: "BMI Calculator",
+  description: "This is a BMI calculator project implemented with vanilla JavaScript.",
+  projectLink: "https://brian-mayianda.github.io/BMI-Calculator/",
+
+},
+
+{
 title: "Movies Site",
 description: "This is a movies site implemented with vanilla JavaScript.",
 projectLink: "https://brian-mayianda.github.io/Frontend-Movie-App"
