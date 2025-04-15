@@ -284,6 +284,19 @@ body {
   background-color: rgb(88, 88, 88);
   color: white;
 }
+
+.figma {
+  background-color: rgb(6, 83, 79);
+  color: white;
+}
+
+.postgresql {
+  background-color: rgb(6, 83, 79);
+  color: white;
+}
+
+
+/* Bottom section */
 .bottom-section {
   background-color: rgba(135, 206, 235, 0.3);
 }
